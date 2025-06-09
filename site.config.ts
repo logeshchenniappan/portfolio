@@ -9,18 +9,18 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'wr8 Demo',
-  domain: 'demo.wr8.in',
-  author: 'Mighil',
-  seotitle: 'Demo Site Created with wr8',
+  name: 'Logesh C',
+  domain: 'logeshc.com',
+  author: 'Logesh C',
+  seotitle: 'Logesh C | Aspiring Product Manager',
 
   // open graph metadata (optional)
-  description: 'This is a demo website created with wr8.',
+  description: 'Logesh C | Aspiring Product Manager',
 
   // social usernames (optional)
-  twitter: 'jotzilla',
-  github: 'verfasor',
-  linkedin: 'mighil',
+  twitter: 'Logesh__C',
+  github: 'logeshchenniappan',
+  linkedin: 'chenniappanlogesh',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
