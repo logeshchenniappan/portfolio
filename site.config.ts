@@ -33,6 +33,9 @@ export default siteConfig({
   // whether or not to enable support for LQIP preview images (optional)
   isPreviewImageSupportEnabled: true,
 
+   // disable the search option in the header
+  isSearchEnabled: false,
+  
   // whether or not redis is enabled for caching generated preview images (optional)
   // NOTE: if you enable redis, you need to set the `REDIS_HOST` and `REDIS_PASSWORD`
   // environment variables. see the readme for more info
