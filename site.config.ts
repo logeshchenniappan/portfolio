@@ -12,10 +12,10 @@ export default siteConfig({
   name: 'Logesh C',
   domain: 'logeshc.com',
   author: 'Logesh C',
-  seotitle: 'Logesh C | Aspiring Product Manager',
+  seotitle: 'Logesh C | Aspiring Product Manager, Startup Advisor',
 
   // open graph metadata (optional)
-  description: 'Logesh C | Aspiring Product Manager',
+  description: 'Hi! I am Logesh C, a Product Manager, Builder, Startup Advisor. This is my small corner of the internet.',
 
   // social usernames (optional)
   twitter: 'Logesh__C',
