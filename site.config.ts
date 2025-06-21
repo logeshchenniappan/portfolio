@@ -61,7 +61,7 @@ export default siteConfig({
     },    
     {
       title: 'Projects',
-      pageId: '218974ade26e80b987d9d6f9a76acda3'
+      pageId: '219974ade26e80ee8a3eeb1a3570dd61'
     },
     {
       title: 'Blog',
