@@ -26,8 +26,8 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: 'https://wr8.in/page-icon.png',
-  defaultPageCover: 'https://wr8.in/page-cover.jpg',
+  defaultPageIcon: 'https://img.notionusercontent.com/s3/prod-files-secure%2Fb99dab89-f2f2-4d0c-93c7-4c3937b1f85e%2F52e3e962-f8d5-4685-9301-8244ea83e849%2FChatGPT_Image_Jun_2_2025_08_45_48_AM.png/size/w=250?exp=1750570572&sig=B6kGt_YCMexKtZekTTI7H0bbWj-3yWQy5csjAa-SpbM&id=20d974ad-e26e-80e7-8945-ff0f130b78ab&table=block&userId=3a6d6398-1a98-49c2-ba6f-4e43f9cd243c',
+  defaultPageCover: 'https://img.notionusercontent.com/s3/prod-files-secure%2Fb99dab89-f2f2-4d0c-93c7-4c3937b1f85e%2F8e473788-c4d5-4e5d-9b3e-514696f79e50%2FBeige_Brown_Monotone_Sales__Marketing_Resume_Website_(1).png/size/w=2000?exp=1750570501&sig=heGb1XQzMm7apHXyqy2cJUEiSiS6ZxN7_IyZHW5_afE&id=20d974ad-e26e-80e7-8945-ff0f130b78ab&table=block&userId=3a6d6398-1a98-49c2-ba6f-4e43f9cd243c',
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
