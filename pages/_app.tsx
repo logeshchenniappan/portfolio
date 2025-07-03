@@ -101,7 +101,6 @@ export default function App({ Component, pageProps }: AppProps) {
 	i18n: {
 		en: {
 			title: 'Hi there! 👋',
-			subtitle: "Start a chat. We're here to help you 24/7.",
 			footer: '',
 			getStarted: 'New Conversation',
 			inputPlaceholder: 'Type your question..',
