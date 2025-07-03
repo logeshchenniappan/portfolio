@@ -96,7 +96,7 @@ export default function App({ Component, pageProps }: AppProps) {
 	defaultLanguage: 'en',
 	initialMessages: [
 		'Hi there! 👋',
-		'My name is Nathan. How can I assist you today?'
+		'This is logesh . How can I assist you today?'
 	],
 	i18n: {
 		en: {
