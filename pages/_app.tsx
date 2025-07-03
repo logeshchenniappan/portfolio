@@ -67,5 +67,25 @@ export default function App({ Component, pageProps }: AppProps) {
     }
   }, [router.events])
 
+  // ✅ Add chatbot script dynamically
+  React.useEffect(() => {
+    // Load chatbot CSS
+    const link = document.createElement('link')
+    link.rel = 'stylesheet'
+    link.href = 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css'
+    document.head.appendChild(link)
+
+    // Load chatbot script (ES module)
+    const script = document.createElement('script')
+    script.type = 'module'
+    script.innerHTML = `
+      import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+      createChat({
+        webhookUrl: 'https://n8n-4a2p.onrender.com/webhook/18f7b66d-e4f4-40f8-bb1f-6a5688b67194/chat'
+      });
+    `
+    document.body.appendChild(script)
+  }, [])
+
   return <Component {...pageProps} />
 }
