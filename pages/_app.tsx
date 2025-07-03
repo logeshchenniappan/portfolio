@@ -81,7 +81,7 @@ export default function App({ Component, pageProps }: AppProps) {
     script.innerHTML = `
       import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
       createChat({
-        webhookUrl:'https://n8n-4a2p.onrender.com/webhook/18f7b66d-e4f4-40f8-bb1f-6a5688b67194/chat'
+        webhookUrl:'https://n8n-4a2p.onrender.com/webhook/18f7b66d-e4f4-40f8-bb1f-6a5688b67194/chat',
         webhookConfig: {
 		method: 'POST',
 		headers: {}
